@@ -6,8 +6,6 @@ class Item < ApplicationRecord
   validates :title,
             :description,
             :price,
-            :status,
-            :category_id,
             presence: true
 
   validates :price, numericality: { greater_than: 0 }
