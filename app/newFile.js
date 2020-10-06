@@ -1,0 +1,1 @@
+const stringMe = "HELLO"
